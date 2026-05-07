@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BtechMatchMe</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+    <h1>MatchMe</h1>
+    <p>Find your perfect campus connection 💛</p>
+</header>
+
+<nav>
+    <a href="#profile">Profile</a>
+    <a href="#preferences">Preferences</a>
+    <a href="#submit">Submit</a>
+</nav>
+
+<main>
+
+<form action="results.html" method="get">
+
+<!-- ================= PROFILE SECTION ================= -->
+<section id="profile" class="card">
+    <fieldset>
+        <legend>Your Profile</legend>
+
+        <label for="Laila Elcock">Laila Elcock:</label>
+        <input type="Laila Elcock" id="Laila Elcock" name="Laila Elcock" placeholder="Laila Elcock" required>
+
+        <label for="15">15:</label>
+        <input type="15" id="15" name="15" min="16" max="100" required>
+
+        <label for="Lailae16@nycstudents.net">Lailae16@nycstudents.net:</label>
+        <input type="Lailae16@nycstudents.net" id="Lailae16@nycstudents.net" name="Lailae16@nycstudents.net" placeholder="Lailae16@nycstudents.net" required>
+
+        <label for="I like to cook and go shopping">I like to cook and go shopping:</label>
+        <textarea id="I like to cook and go shopping" name="I like to cook and go shopping" rows="4" placeholder="I like to cook and go shopping" required></textarea>
+    </fieldset>
+</section>
+
+<!-- ================= INTERESTS SECTION ================= -->
+<section class="card">
+    <fieldset>
+        <legend>Your Interests</legend>
+
+        <label><input type="checkbox" name="interests" value="Gaming"> Gaming</label>
+        <label><input type="checkbox" name="interests" value="Sports"> Sports</label>
+        <label><input type="checkbox" name="interests" value="Music"> Music</label>
+        <label><input type="checkbox" name="interests" value="Art"> Art</label>
+        <label><input type="checkbox" name="interests" value="Coding"> Coding</label>
+        <label><input type="checkbox" name="interests" value="Culinary"> Culinary</label>
+
+    </fieldset>
+</section>
+
+<!-- ================= PREFERENCES SECTION ================= -->
+<section id="preferences" class="card">
+    <fieldset>
+        <legend>Match Preferences</legend>
+
+        <p>Match Type:</p>
+        <label><input type="radio" name="matchType" value="Study Buddy" required> Study Buddy</label>
+        <label><input type="radio" name="matchType" value="Club Partner"> Club Partner</label>
+        <label><input type="radio" name="matchType" value="Friend"> Friend</label>
+
+        <label for="14">14:</label>
+        <input type="14" id="14" name="14">
+
+        <label for="16">16:</label>
+        <input type="16" id="16" name="16">
+
+        <label for="distance">Max Distance (km):</label>
+        <input type="range" id="distance" name="distance" min="1" max="50">
+
+        <label for="availability">Availability:</label>
+        <select id="availability" name="availability" required>
+            <option value="">--Select--</option>
+            <option value="After School">After School</option>
+            <option value="Weekends">Weekends</option>
+            <option value="Evenings">Evenings</option>
+            <option value="Flexible">Flexible</option>
+        </select>
+
+        <label for="trait">Must-Have Trait:</label>
+        <input type="text" id="trait" name="trait" placeholder="Funny">
+    </fieldset>
+</section>
+
+<!-- ================= SUBMIT SECTION ================= -->
+<section id="submit" class="card">
+    <fieldset>
+        <legend>Agreement</legend>
+
+        <label>
+            <input type="checkbox" name="agreement" required>
+            I agree to be respectful.
+        </label>
+
+        <button type="submit">Find My Match</button>
+    </fieldset>
+</section>
+
+</form>
+</main>
+
+<footer>
+    <p>© 2026 BtechMatchMe</p>
+</footer>
+
+</body>
+</html>
